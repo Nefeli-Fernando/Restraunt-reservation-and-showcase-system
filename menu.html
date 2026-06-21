@@ -8,13 +8,46 @@
 <body>
     
     <center>
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="menu.html">Menu</a> |
-        <a href="Showcase.html">Showcase</a> |
-        <a href="contact.html">Make a Reservation</a> |
+    <nav style="background: rgba(92, 222, 109, 0.7); padding: 15px; text-align: center; backdrop-filter: blur(5px);" >
+        <a href="index.html" style="margin: 0 12px; text-decoration: none;">Home</a> |
+        <a href="menu.html" style="margin: 0 12px; text-decoration: none;">Menu</a> |
+        <a href="Showcase.html" style="margin: 0 12px; text-decoration: none;">Showcase</a> |
+        <a href="contact.html" style="margin: 0 12px; text-decoration: none;">Make a Reservation</a> |
     </nav>
     </center>
+
+   <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        .bg {
+            position: fixed;
+            inset: 0;
+            background-image: url("Assets/Images/Backgrondd.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            z-index: -1;
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+            color: white;
+            text-align: center;
+            margin-top: 20vh;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="bg"></div>
+
+    
 
 </body>
 </html>
