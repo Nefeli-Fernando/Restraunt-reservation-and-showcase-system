@@ -16,25 +16,57 @@
       <hr />
     </center>
 
-    <section id="img_banner">
+    <section id="img_banner" style="background-color: black;">
       <table>
         <tr>
-          <th rowspan="2">
+          <th>
             <img
               src="Assets\Images\chad-montano-MqT0asuoIcU-unsplash.jpg"
               alt="Pizza Banner"
-              height="700"
+              height="600"
             />
           </th>
-          <th style="text-align: center">
-            <h1>Order Your Foods Here</h1>
-            <p>We Bring The Best Food To your Doorstep</p>
+          <th style="text-align: right;">
+            <h1 style="color: white;">Order Your Foods Here</h1>
+            <p style="color: white;">We Bring The Best Food To your Doorstep</p>
+            <button><a href="#reservation">Order Here</a></button>
           </th>
-        </tr>
-        <tr>
-          <button>Order Here</button>
         </tr>
       </table>
     </section>
+    <section id="reservation">
+        <hr>
+        <h2>Make A Reservation</h2>
+        <hr>
+        <table>
+            <th style="text-align: left;">
+                <form>
+                    <label for="name">Name:</label><br>
+                    <input type="text" name="name" id="name" placeholder="John Doe"> <br><br>
+                    
+                    <label for="contact">Contact:</label><br>
+                    <input type="text" name="contact" id="contact" placeholder="(+94)00-000-0000"> <br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" name="email" id="email" placeholder="johndoe@example.com"> <br><br>
+
+                    <label for="comment">Comment:</label><br>
+                    <textarea name="comment" id="comment" rows="5" cols="50" placeholder="Write Any Additional Details We Should Know ..."></textarea><br><br>
+
+                    <small>* We Will Be In Contact With You Shortly About Available Reservations For Your Occasion</small><br>
+                    <button>Make A Reservation</button>
+                    
+                </form>
+            </th>
+            <th style="align-content: center;">
+                <img height="500" src="Assets\Images\daniel-T_PbUhfwd0U-unsplash.jpg" alt="pizza table">
+            </th>
+        </table>
+    </section>
+    <hr>
+
+    <footer>
+      <small>©️ Copyright Reserved</small>
+    </footer>
   </body>
 </html>
