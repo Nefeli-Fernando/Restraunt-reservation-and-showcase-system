@@ -1,18 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Reservation and Contact us</title>
-</head>
-<body>
+  </head>
+  <body>
     <center>
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="menu.html">Menu</a> |
+      <nav>
+        <hr />
+        <a href="index.html">Home</a> | <a href="menu.html">Menu</a> |
         <a href="Showcase.html">Showcase</a> |
         <a href="contact.html">Make a Reservation</a> |
-    </nav>
+      </nav>
+      <hr />
     </center>
-</body>
+
+    <section id="img_banner" style="background-color: black;">
+      <table>
+        <tr>
+          <th>
+            <img
+              src="Assets\Images\chad-montano-MqT0asuoIcU-unsplash.jpg"
+              alt="Pizza Banner"
+              height="600"
+            />
+          </th>
+          <th style="text-align: right;">
+            <h1 style="color: white;">Order Your Foods Here</h1>
+            <p style="color: white;">We Bring The Best Food To your Doorstep</p>
+            <button><a href="#reservation">Order Here</a></button>
+          </th>
+        </tr>
+      </table>
+    </section>
+    <section id="reservation">
+        <hr>
+        <h2>Make A Reservation</h2>
+        <hr>
+        <table>
+            <th style="text-align: left;">
+                <form>
+                    <label for="name">Name:</label><br>
+                    <input type="text" name="name" id="name" placeholder="John Doe"> <br><br>
+                    
+                    <label for="contact">Contact:</label><br>
+                    <input type="text" name="contact" id="contact" placeholder="(+94)00-000-0000"> <br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" name="email" id="email" placeholder="johndoe@example.com"> <br><br>
+
+                    <label for="comment">Comment:</label><br>
+                    <textarea name="comment" id="comment" rows="5" cols="50" placeholder="Write Any Additional Details We Should Know ..."></textarea><br><br>
+
+                    <small>* We Will Be In Contact With You Shortly About Available Reservations For Your Occasion</small><br>
+                    <button>Make A Reservation</button>
+                    
+                </form>
+            </th>
+            <th style="align-content: center;">
+                <img height="500" src="Assets\Images\daniel-T_PbUhfwd0U-unsplash.jpg" alt="pizza table">
+            </th>
+        </table>
+    </section>
+    <hr>
+
+    <footer>
+      <small>©️ Copyright Reserved</small>
+    </footer>
+  </body>
 </html>
